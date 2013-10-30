@@ -21,7 +21,7 @@ class Rich
     def initializePlayers
         @players = Array.new
         begin
-            puts "Please choose 2~4 players(1.qianfuren,2.atubo,3.jinbeibei,4.xunxiaomei)"
+            puts "Please choose 2~4 players(1.qianfuren,2.atubo,3.jinbeibei,4.sunxiaomei)"
             input = gets
         end while( notValidInput(input) or hasSamePlayers(input))
         initPlayersInfo(input)
