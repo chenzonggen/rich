@@ -1,0 +1,7 @@
+1000
+12
+roll 3
+Y
+roll 4
+Y
+quit
